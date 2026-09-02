@@ -1,0 +1,47 @@
+{
+  "learning_rates": [
+    0.0003,
+    0.001,
+    0.00125,
+    0.002,
+    0.004,
+    0.008
+  ],
+  "selected_learning_rates": [
+    0.002,
+    0.00125,
+    0.001
+  ],
+  "probe_steps": 300,
+  "full_steps": 1000,
+  "top_k": 3,
+  "min_lr_ratio": 0.1,
+  "random_seed": 42,
+  "model": {
+    "vocab_size": 10000,
+    "context_length": 256,
+    "d_model": 512,
+    "num_layers": 4,
+    "num_heads": 16,
+    "d_ff": 1344,
+    "rope_theta": 10000.0
+  },
+  "batch_size": 16,
+  "max_grad_norm": 1.0,
+  "weight_decay": 0.01,
+  "betas": [
+    0.9,
+    0.95
+  ],
+  "eval_iters": 5,
+  "dataset": {
+    "train_source": "/data/TinyStoriesV2-GPT4-train.txt",
+    "valid_source": "/data/TinyStoriesV2-GPT4-valid.txt",
+    "train_character_limit": 2000000,
+    "valid_character_limit": 500000,
+    "token_dtype": "uint16",
+    "tokenizer_vocab_size": 10000,
+    "train_tokens": 486956,
+    "valid_tokens": 121603
+  }
+}

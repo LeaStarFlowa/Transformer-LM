@@ -1,0 +1,89 @@
+{
+  "stage": "full",
+  "label": "0.001",
+  "max_lr": 0.001,
+  "min_lr": 0.0001,
+  "num_steps": 1000,
+  "warmup_steps": 100,
+  "eval_interval": 100,
+  "eval_iters": 5,
+  "seed": 42,
+  "device": "Tesla T4",
+  "parameter_count": 22696448,
+  "best_step": 500,
+  "best_valid_loss": 2.842664432525635,
+  "final_step": 1000,
+  "final_train_loss": 1.0588614225387574,
+  "final_valid_loss": 3.0840216636657716,
+  "diverged": false,
+  "divergence_reason": "",
+  "elapsed_seconds": 220.979216653,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 9.250030326843262,
+      "valid_loss": 9.252707481384277,
+      "learning_rate": 0.0
+    },
+    {
+      "step": 100,
+      "train_loss": 3.6666470527648927,
+      "valid_loss": 3.7085990428924562,
+      "learning_rate": 0.001
+    },
+    {
+      "step": 200,
+      "train_loss": 2.964923286437988,
+      "valid_loss": 3.284915065765381,
+      "learning_rate": 0.0009728616793536588
+    },
+    {
+      "step": 300,
+      "train_loss": 2.4831910133361816,
+      "valid_loss": 3.0677261352539062,
+      "learning_rate": 0.00089471999940354
+    },
+    {
+      "step": 400,
+      "train_loss": 2.2322227001190185,
+      "valid_loss": 2.8735703945159914,
+      "learning_rate": 0.0007750000000000001
+    },
+    {
+      "step": 500,
+      "train_loss": 2.0545430421829223,
+      "valid_loss": 2.842664432525635,
+      "learning_rate": 0.0006281416799501188
+    },
+    {
+      "step": 600,
+      "train_loss": 1.6736458539962769,
+      "valid_loss": 2.9960547924041747,
+      "learning_rate": 0.00047185832004988137
+    },
+    {
+      "step": 700,
+      "train_loss": 1.4420991659164428,
+      "valid_loss": 2.8956565856933594,
+      "learning_rate": 0.0003250000000000001
+    },
+    {
+      "step": 800,
+      "train_loss": 1.2293704271316528,
+      "valid_loss": 2.981409502029419,
+      "learning_rate": 0.00020528000059645996
+    },
+    {
+      "step": 900,
+      "train_loss": 1.1761702299118042,
+      "valid_loss": 2.935301351547241,
+      "learning_rate": 0.00012713832064634127
+    },
+    {
+      "step": 1000,
+      "train_loss": 1.0588614225387574,
+      "valid_loss": 3.0840216636657716,
+      "learning_rate": 0.0001
+    }
+  ]
+}
