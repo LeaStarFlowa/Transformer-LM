@@ -1,0 +1,659 @@
+[
+  {
+    "stage": "probe",
+    "label": "0.0003",
+    "max_lr": 0.0003,
+    "min_lr": 2.9999999999999997e-05,
+    "num_steps": 300,
+    "warmup_steps": 30,
+    "eval_interval": 50,
+    "eval_iters": 5,
+    "seed": 42,
+    "device": "Tesla T4",
+    "parameter_count": 22696448,
+    "best_step": 250,
+    "best_valid_loss": 3.425728130340576,
+    "final_step": 300,
+    "final_train_loss": 3.358177328109741,
+    "final_valid_loss": 3.4586198806762694,
+    "diverged": false,
+    "divergence_reason": "",
+    "elapsed_seconds": 67.461241989,
+    "history": [
+      {
+        "step": 0,
+        "train_loss": 9.250030326843262,
+        "valid_loss": 9.252707481384277,
+        "learning_rate": 0.0
+      },
+      {
+        "step": 50,
+        "train_loss": 4.895987606048584,
+        "valid_loss": 4.936144924163818,
+        "learning_rate": 0.0002963610575282762
+      },
+      {
+        "step": 100,
+        "train_loss": 3.9636467933654784,
+        "valid_loss": 4.011592864990234,
+        "learning_rate": 0.000257642621112279
+      },
+      {
+        "step": 150,
+        "train_loss": 3.718283939361572,
+        "valid_loss": 3.700818157196045,
+        "learning_rate": 0.0001884425039850356
+      },
+      {
+        "step": 200,
+        "train_loss": 3.499287176132202,
+        "valid_loss": 3.5760441780090333,
+        "learning_rate": 0.0001115292315847138
+      },
+      {
+        "step": 250,
+        "train_loss": 3.4376123905181886,
+        "valid_loss": 3.425728130340576,
+        "learning_rate": 5.22091454592536e-05
+      },
+      {
+        "step": 300,
+        "train_loss": 3.358177328109741,
+        "valid_loss": 3.4586198806762694,
+        "learning_rate": 2.9999999999999997e-05
+      }
+    ]
+  },
+  {
+    "stage": "probe",
+    "label": "0.001",
+    "max_lr": 0.001,
+    "min_lr": 0.0001,
+    "num_steps": 300,
+    "warmup_steps": 30,
+    "eval_interval": 50,
+    "eval_iters": 5,
+    "seed": 42,
+    "device": "Tesla T4",
+    "parameter_count": 22696448,
+    "best_step": 250,
+    "best_valid_loss": 3.0229328632354737,
+    "final_step": 300,
+    "final_train_loss": 2.738487195968628,
+    "final_valid_loss": 3.0485462188720702,
+    "diverged": false,
+    "divergence_reason": "",
+    "elapsed_seconds": 67.1471535,
+    "history": [
+      {
+        "step": 0,
+        "train_loss": 9.250030326843262,
+        "valid_loss": 9.252707481384277,
+        "learning_rate": 0.0
+      },
+      {
+        "step": 50,
+        "train_loss": 4.036577224731445,
+        "valid_loss": 4.115023422241211,
+        "learning_rate": 0.0009878701917609206
+      },
+      {
+        "step": 100,
+        "train_loss": 3.4724874019622805,
+        "valid_loss": 3.5667368888854982,
+        "learning_rate": 0.0008588087370409302
+      },
+      {
+        "step": 150,
+        "train_loss": 3.2377320289611817,
+        "valid_loss": 3.3211394786834716,
+        "learning_rate": 0.0006281416799501188
+      },
+      {
+        "step": 200,
+        "train_loss": 2.977627992630005,
+        "valid_loss": 3.177394485473633,
+        "learning_rate": 0.0003717641052823794
+      },
+      {
+        "step": 250,
+        "train_loss": 2.8488388061523438,
+        "valid_loss": 3.0229328632354737,
+        "learning_rate": 0.00017403048486417869
+      },
+      {
+        "step": 300,
+        "train_loss": 2.738487195968628,
+        "valid_loss": 3.0485462188720702,
+        "learning_rate": 0.0001
+      }
+    ]
+  },
+  {
+    "stage": "probe",
+    "label": "0.00125",
+    "max_lr": 0.00125,
+    "min_lr": 0.000125,
+    "num_steps": 300,
+    "warmup_steps": 30,
+    "eval_interval": 50,
+    "eval_iters": 5,
+    "seed": 42,
+    "device": "Tesla T4",
+    "parameter_count": 22696448,
+    "best_step": 250,
+    "best_valid_loss": 2.9685394763946533,
+    "final_step": 300,
+    "final_train_loss": 2.629023551940918,
+    "final_valid_loss": 2.998017501831055,
+    "diverged": false,
+    "divergence_reason": "",
+    "elapsed_seconds": 67.272944716,
+    "history": [
+      {
+        "step": 0,
+        "train_loss": 9.250030326843262,
+        "valid_loss": 9.252707481384277,
+        "learning_rate": 0.0
+      },
+      {
+        "step": 50,
+        "train_loss": 3.9661884784698485,
+        "valid_loss": 4.0557633399963375,
+        "learning_rate": 0.001234837739701151
+      },
+      {
+        "step": 100,
+        "train_loss": 3.4135000705718994,
+        "valid_loss": 3.5270862579345703,
+        "learning_rate": 0.0010735109213011627
+      },
+      {
+        "step": 150,
+        "train_loss": 3.1752038955688477,
+        "valid_loss": 3.266827869415283,
+        "learning_rate": 0.0007851770999376485
+      },
+      {
+        "step": 200,
+        "train_loss": 2.898393964767456,
+        "valid_loss": 3.1262447357177736,
+        "learning_rate": 0.00046470513160297433
+      },
+      {
+        "step": 250,
+        "train_loss": 2.754869222640991,
+        "valid_loss": 2.9685394763946533,
+        "learning_rate": 0.00021753810608022336
+      },
+      {
+        "step": 300,
+        "train_loss": 2.629023551940918,
+        "valid_loss": 2.998017501831055,
+        "learning_rate": 0.000125
+      }
+    ]
+  },
+  {
+    "stage": "probe",
+    "label": "0.002",
+    "max_lr": 0.002,
+    "min_lr": 0.0002,
+    "num_steps": 300,
+    "warmup_steps": 30,
+    "eval_interval": 50,
+    "eval_iters": 5,
+    "seed": 42,
+    "device": "Tesla T4",
+    "parameter_count": 22696448,
+    "best_step": 250,
+    "best_valid_loss": 2.9213934421539305,
+    "final_step": 300,
+    "final_train_loss": 2.501460838317871,
+    "final_valid_loss": 2.949962091445923,
+    "diverged": false,
+    "divergence_reason": "",
+    "elapsed_seconds": 66.783132838,
+    "history": [
+      {
+        "step": 0,
+        "train_loss": 9.250030326843262,
+        "valid_loss": 9.252707481384277,
+        "learning_rate": 0.0
+      },
+      {
+        "step": 50,
+        "train_loss": 3.8532193660736085,
+        "valid_loss": 3.9620106697082518,
+        "learning_rate": 0.001975740383521841
+      },
+      {
+        "step": 100,
+        "train_loss": 3.3624569892883303,
+        "valid_loss": 3.494616746902466,
+        "learning_rate": 0.0017176174740818604
+      },
+      {
+        "step": 150,
+        "train_loss": 3.126604604721069,
+        "valid_loss": 3.2453240394592284,
+        "learning_rate": 0.0012562833599002376
+      },
+      {
+        "step": 200,
+        "train_loss": 2.829001760482788,
+        "valid_loss": 3.0975272178649904,
+        "learning_rate": 0.0007435282105647588
+      },
+      {
+        "step": 250,
+        "train_loss": 2.637310266494751,
+        "valid_loss": 2.9213934421539305,
+        "learning_rate": 0.00034806096972835737
+      },
+      {
+        "step": 300,
+        "train_loss": 2.501460838317871,
+        "valid_loss": 2.949962091445923,
+        "learning_rate": 0.0002
+      }
+    ]
+  },
+  {
+    "stage": "probe",
+    "label": "0.004",
+    "max_lr": 0.004,
+    "min_lr": 0.0004,
+    "num_steps": 300,
+    "warmup_steps": 30,
+    "eval_interval": 50,
+    "eval_iters": 5,
+    "seed": 42,
+    "device": "Tesla T4",
+    "parameter_count": 22696448,
+    "best_step": 300,
+    "best_valid_loss": 3.1469892501831054,
+    "final_step": 300,
+    "final_train_loss": 2.8736319541931152,
+    "final_valid_loss": 3.1469892501831054,
+    "diverged": false,
+    "divergence_reason": "",
+    "elapsed_seconds": 67.273134322,
+    "history": [
+      {
+        "step": 0,
+        "train_loss": 9.250030326843262,
+        "valid_loss": 9.252707481384277,
+        "learning_rate": 0.0
+      },
+      {
+        "step": 50,
+        "train_loss": 4.115431785583496,
+        "valid_loss": 4.218471336364746,
+        "learning_rate": 0.003951480767043682
+      },
+      {
+        "step": 100,
+        "train_loss": 3.6461813926696776,
+        "valid_loss": 3.753289079666138,
+        "learning_rate": 0.003435234948163721
+      },
+      {
+        "step": 150,
+        "train_loss": 3.458974266052246,
+        "valid_loss": 3.5127724170684815,
+        "learning_rate": 0.0025125667198004752
+      },
+      {
+        "step": 200,
+        "train_loss": 3.190275716781616,
+        "valid_loss": 3.3598022937774656,
+        "learning_rate": 0.0014870564211295176
+      },
+      {
+        "step": 250,
+        "train_loss": 3.0231335163116455,
+        "valid_loss": 3.1617533683776857,
+        "learning_rate": 0.0006961219394567147
+      },
+      {
+        "step": 300,
+        "train_loss": 2.8736319541931152,
+        "valid_loss": 3.1469892501831054,
+        "learning_rate": 0.0004
+      }
+    ]
+  },
+  {
+    "stage": "probe",
+    "label": "0.008",
+    "max_lr": 0.008,
+    "min_lr": 0.0008,
+    "num_steps": 300,
+    "warmup_steps": 30,
+    "eval_interval": 50,
+    "eval_iters": 5,
+    "seed": 42,
+    "device": "Tesla T4",
+    "parameter_count": 22696448,
+    "best_step": 300,
+    "best_valid_loss": 3.45421142578125,
+    "final_step": 300,
+    "final_train_loss": 3.3012225151062013,
+    "final_valid_loss": 3.45421142578125,
+    "diverged": false,
+    "divergence_reason": "",
+    "elapsed_seconds": 74.709768798,
+    "history": [
+      {
+        "step": 0,
+        "train_loss": 9.250030326843262,
+        "valid_loss": 9.252707481384277,
+        "learning_rate": 0.0
+      },
+      {
+        "step": 50,
+        "train_loss": 4.4854738235473635,
+        "valid_loss": 4.570062255859375,
+        "learning_rate": 0.007902961534087365
+      },
+      {
+        "step": 100,
+        "train_loss": 3.9501130104064943,
+        "valid_loss": 4.029049110412598,
+        "learning_rate": 0.006870469896327442
+      },
+      {
+        "step": 150,
+        "train_loss": 3.839402437210083,
+        "valid_loss": 3.844656991958618,
+        "learning_rate": 0.0050251334396009505
+      },
+      {
+        "step": 200,
+        "train_loss": 3.5766132831573487,
+        "valid_loss": 3.6919937133789062,
+        "learning_rate": 0.002974112842259035
+      },
+      {
+        "step": 250,
+        "train_loss": 3.4420331954956054,
+        "valid_loss": 3.4731858253479,
+        "learning_rate": 0.0013922438789134295
+      },
+      {
+        "step": 300,
+        "train_loss": 3.3012225151062013,
+        "valid_loss": 3.45421142578125,
+        "learning_rate": 0.0008
+      }
+    ]
+  },
+  {
+    "stage": "full",
+    "label": "0.002",
+    "max_lr": 0.002,
+    "min_lr": 0.0002,
+    "num_steps": 1000,
+    "warmup_steps": 100,
+    "eval_interval": 100,
+    "eval_iters": 5,
+    "seed": 42,
+    "device": "Tesla T4",
+    "parameter_count": 22696448,
+    "best_step": 500,
+    "best_valid_loss": 2.8637645721435545,
+    "final_step": 1000,
+    "final_train_loss": 0.8467684984207153,
+    "final_valid_loss": 3.110078716278076,
+    "diverged": false,
+    "divergence_reason": "",
+    "elapsed_seconds": 222.451557169,
+    "history": [
+      {
+        "step": 0,
+        "train_loss": 9.250030326843262,
+        "valid_loss": 9.252707481384277,
+        "learning_rate": 0.0
+      },
+      {
+        "step": 100,
+        "train_loss": 3.4948294162750244,
+        "valid_loss": 3.5614778995513916,
+        "learning_rate": 0.002
+      },
+      {
+        "step": 200,
+        "train_loss": 2.876881170272827,
+        "valid_loss": 3.244693231582642,
+        "learning_rate": 0.0019457233587073177
+      },
+      {
+        "step": 300,
+        "train_loss": 2.4226375579833985,
+        "valid_loss": 3.090521955490112,
+        "learning_rate": 0.00178943999880708
+      },
+      {
+        "step": 400,
+        "train_loss": 2.2231791973114015,
+        "valid_loss": 2.900990438461304,
+        "learning_rate": 0.0015500000000000002
+      },
+      {
+        "step": 500,
+        "train_loss": 2.021085500717163,
+        "valid_loss": 2.8637645721435545,
+        "learning_rate": 0.0012562833599002376
+      },
+      {
+        "step": 600,
+        "train_loss": 1.6214895009994508,
+        "valid_loss": 3.0253788471221923,
+        "learning_rate": 0.0009437166400997627
+      },
+      {
+        "step": 700,
+        "train_loss": 1.349639654159546,
+        "valid_loss": 2.8964380264282226,
+        "learning_rate": 0.0006500000000000002
+      },
+      {
+        "step": 800,
+        "train_loss": 1.0804056644439697,
+        "valid_loss": 3.001110792160034,
+        "learning_rate": 0.0004105600011929199
+      },
+      {
+        "step": 900,
+        "train_loss": 0.9798559665679931,
+        "valid_loss": 2.936425065994263,
+        "learning_rate": 0.00025427664129268253
+      },
+      {
+        "step": 1000,
+        "train_loss": 0.8467684984207153,
+        "valid_loss": 3.110078716278076,
+        "learning_rate": 0.0002
+      }
+    ]
+  },
+  {
+    "stage": "full",
+    "label": "0.00125",
+    "max_lr": 0.00125,
+    "min_lr": 0.000125,
+    "num_steps": 1000,
+    "warmup_steps": 100,
+    "eval_interval": 100,
+    "eval_iters": 5,
+    "seed": 42,
+    "device": "Tesla T4",
+    "parameter_count": 22696448,
+    "best_step": 500,
+    "best_valid_loss": 2.8497573375701903,
+    "final_step": 1000,
+    "final_train_loss": 0.9125607728958129,
+    "final_valid_loss": 3.1107466220855713,
+    "diverged": false,
+    "divergence_reason": "",
+    "elapsed_seconds": 220.36657264399997,
+    "history": [
+      {
+        "step": 0,
+        "train_loss": 9.250030326843262,
+        "valid_loss": 9.252707481384277,
+        "learning_rate": 0.0
+      },
+      {
+        "step": 100,
+        "train_loss": 3.595202159881592,
+        "valid_loss": 3.643735980987549,
+        "learning_rate": 0.0012500000000000002
+      },
+      {
+        "step": 200,
+        "train_loss": 2.908927488327026,
+        "valid_loss": 3.257621717453003,
+        "learning_rate": 0.0012160770991920737
+      },
+      {
+        "step": 300,
+        "train_loss": 2.4207515716552734,
+        "valid_loss": 3.0626017570495607,
+        "learning_rate": 0.0011183999992544253
+      },
+      {
+        "step": 400,
+        "train_loss": 2.1685085773468016,
+        "valid_loss": 2.8758189201354982,
+        "learning_rate": 0.0009687500000000001
+      },
+      {
+        "step": 500,
+        "train_loss": 1.9715881824493409,
+        "valid_loss": 2.8497573375701903,
+        "learning_rate": 0.0007851770999376485
+      },
+      {
+        "step": 600,
+        "train_loss": 1.5812428951263429,
+        "valid_loss": 3.0154371738433836,
+        "learning_rate": 0.0005898229000623517
+      },
+      {
+        "step": 700,
+        "train_loss": 1.3287683725357056,
+        "valid_loss": 2.8991087913513183,
+        "learning_rate": 0.00040625000000000014
+      },
+      {
+        "step": 800,
+        "train_loss": 1.0884641885757447,
+        "valid_loss": 3.002601432800293,
+        "learning_rate": 0.00025660000074557494
+      },
+      {
+        "step": 900,
+        "train_loss": 1.0250099062919618,
+        "valid_loss": 2.962075614929199,
+        "learning_rate": 0.00015892290080792658
+      },
+      {
+        "step": 1000,
+        "train_loss": 0.9125607728958129,
+        "valid_loss": 3.1107466220855713,
+        "learning_rate": 0.000125
+      }
+    ]
+  },
+  {
+    "stage": "full",
+    "label": "0.001",
+    "max_lr": 0.001,
+    "min_lr": 0.0001,
+    "num_steps": 1000,
+    "warmup_steps": 100,
+    "eval_interval": 100,
+    "eval_iters": 5,
+    "seed": 42,
+    "device": "Tesla T4",
+    "parameter_count": 22696448,
+    "best_step": 500,
+    "best_valid_loss": 2.842664432525635,
+    "final_step": 1000,
+    "final_train_loss": 1.0588614225387574,
+    "final_valid_loss": 3.0840216636657716,
+    "diverged": false,
+    "divergence_reason": "",
+    "elapsed_seconds": 220.979216653,
+    "history": [
+      {
+        "step": 0,
+        "train_loss": 9.250030326843262,
+        "valid_loss": 9.252707481384277,
+        "learning_rate": 0.0
+      },
+      {
+        "step": 100,
+        "train_loss": 3.6666470527648927,
+        "valid_loss": 3.7085990428924562,
+        "learning_rate": 0.001
+      },
+      {
+        "step": 200,
+        "train_loss": 2.964923286437988,
+        "valid_loss": 3.284915065765381,
+        "learning_rate": 0.0009728616793536588
+      },
+      {
+        "step": 300,
+        "train_loss": 2.4831910133361816,
+        "valid_loss": 3.0677261352539062,
+        "learning_rate": 0.00089471999940354
+      },
+      {
+        "step": 400,
+        "train_loss": 2.2322227001190185,
+        "valid_loss": 2.8735703945159914,
+        "learning_rate": 0.0007750000000000001
+      },
+      {
+        "step": 500,
+        "train_loss": 2.0545430421829223,
+        "valid_loss": 2.842664432525635,
+        "learning_rate": 0.0006281416799501188
+      },
+      {
+        "step": 600,
+        "train_loss": 1.6736458539962769,
+        "valid_loss": 2.9960547924041747,
+        "learning_rate": 0.00047185832004988137
+      },
+      {
+        "step": 700,
+        "train_loss": 1.4420991659164428,
+        "valid_loss": 2.8956565856933594,
+        "learning_rate": 0.0003250000000000001
+      },
+      {
+        "step": 800,
+        "train_loss": 1.2293704271316528,
+        "valid_loss": 2.981409502029419,
+        "learning_rate": 0.00020528000059645996
+      },
+      {
+        "step": 900,
+        "train_loss": 1.1761702299118042,
+        "valid_loss": 2.935301351547241,
+        "learning_rate": 0.00012713832064634127
+      },
+      {
+        "step": 1000,
+        "train_loss": 1.0588614225387574,
+        "valid_loss": 3.0840216636657716,
+        "learning_rate": 0.0001
+      }
+    ]
+  }
+]
