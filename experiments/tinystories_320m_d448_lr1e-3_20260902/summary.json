@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "run_name": "tinystories_320m_d448_lr1e-3_20260902",
+  "completed_steps": 9766,
+  "training_tokens": 320012288,
+  "parameter_count": 18712512,
+  "best_valid_loss": 1.411225575208664,
+  "best_step": 9700,
+  "final_valid_loss": 1.41131307,
+  "elapsed_seconds": 650.464225058,
+  "average_training_tokens_per_second": 491975.2319529417,
+  "gpu": "NVIDIA B200",
+  "artifacts": {
+    "metrics_csv": "/data/training_runs/tinystories_320m_d448_lr1e-3_20260902/metrics.csv",
+    "tensorboard": "/data/training_runs/tinystories_320m_d448_lr1e-3_20260902/tensorboard",
+    "loss_curves_svg": "/data/training_runs/tinystories_320m_d448_lr1e-3_20260902/loss_curves.svg",
+    "final_model": "/data/training_runs/tinystories_320m_d448_lr1e-3_20260902/final_model.pt",
+    "resumable_final_checkpoint": "/data/training_runs/tinystories_320m_d448_lr1e-3_20260902/checkpoint_final.pt",
+    "training_log": "/data/training_runs/tinystories_320m_d448_lr1e-3_20260902/train.log",
+    "generated_sample": "/data/training_runs/tinystories_320m_d448_lr1e-3_20260902/sample.txt"
+  },
+  "artifact_sizes_bytes": {
+    "final_model": 74866658,
+    "resumable_final_checkpoint": 224600867
+  },
+  "sample": "Once upon a time, there was a little girl named Lily who loved to play with her toys. One day, she saw her mom put on her coat, and her mom gave her a task. Lily was excited to do her task.\nLily wanted to help her mom, so she picked up her toys and put them away. But, she forgot to put them away. She started to feel upset. She didn't know why her mom was upset.\nAs Lily was trying to put her toys away, she fell down. Her mom came over and helped her get up. They found out that Lily's mom was upset. Lily felt bad and said sorry to her mom. They cleaned up the mess together and Lily promised to never forget her task again.\n<|endoftext|>"
+}

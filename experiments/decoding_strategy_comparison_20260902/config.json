@@ -1,0 +1,117 @@
+{
+  "checkpoint": "/data/training_runs/tinystories_320m_d448_lr1e-3_20260902/final_model.pt",
+  "validation_tokens": "/data/tokenized/tinystories_10k/valid.bin",
+  "num_prompts": 32,
+  "num_repeats": 3,
+  "stochastic_samples_per_strategy": 96,
+  "prompt_tokens": 24,
+  "max_new_tokens": 128,
+  "random_seed": 42,
+  "strategies": [
+    {
+      "id": "greedy",
+      "label": "Greedy",
+      "temperature": 0.0,
+      "top_k": null,
+      "top_p": null
+    },
+    {
+      "id": "t0.5",
+      "label": "T=0.5",
+      "temperature": 0.5,
+      "top_k": null,
+      "top_p": null
+    },
+    {
+      "id": "t0.8",
+      "label": "T=0.8",
+      "temperature": 0.8,
+      "top_k": null,
+      "top_p": null
+    },
+    {
+      "id": "t1.0",
+      "label": "T=1.0",
+      "temperature": 1.0,
+      "top_k": null,
+      "top_p": null
+    },
+    {
+      "id": "t1.2",
+      "label": "T=1.2",
+      "temperature": 1.2,
+      "top_k": null,
+      "top_p": null
+    },
+    {
+      "id": "t1.4",
+      "label": "T=1.4",
+      "temperature": 1.4,
+      "top_k": null,
+      "top_p": null
+    },
+    {
+      "id": "t0.8_k20",
+      "label": "T=0.8, K=20",
+      "temperature": 0.8,
+      "top_k": 20,
+      "top_p": null
+    },
+    {
+      "id": "t0.8_k50",
+      "label": "T=0.8, K=50",
+      "temperature": 0.8,
+      "top_k": 50,
+      "top_p": null
+    },
+    {
+      "id": "t0.8_k100",
+      "label": "T=0.8, K=100",
+      "temperature": 0.8,
+      "top_k": 100,
+      "top_p": null
+    },
+    {
+      "id": "t0.8_p0.5",
+      "label": "T=0.8, P=0.50",
+      "temperature": 0.8,
+      "top_k": null,
+      "top_p": 0.5
+    },
+    {
+      "id": "t0.8_p0.8",
+      "label": "T=0.8, P=0.80",
+      "temperature": 0.8,
+      "top_k": null,
+      "top_p": 0.8
+    },
+    {
+      "id": "t0.8_p0.9",
+      "label": "T=0.8, P=0.90",
+      "temperature": 0.8,
+      "top_k": null,
+      "top_p": 0.9
+    },
+    {
+      "id": "t0.8_p0.95",
+      "label": "T=0.8, P=0.95",
+      "temperature": 0.8,
+      "top_k": null,
+      "top_p": 0.95
+    },
+    {
+      "id": "t0.8_k50_p0.9",
+      "label": "T=0.8, K=50, P=0.90",
+      "temperature": 0.8,
+      "top_k": 50,
+      "top_p": 0.9
+    }
+  ],
+  "score_formula": {
+    "fluency_vs_reference_nll": 0.25,
+    "distinct_2_closeness_to_reference": 0.25,
+    "four_gram_repetition": 0.2,
+    "length_closeness_to_reference": 0.15,
+    "eos_rate_closeness_to_reference": 0.15
+  }
+}

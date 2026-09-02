@@ -1,0 +1,47 @@
+{
+  "run_name": "tinystories_320m_d448_lr1e-3_20260902",
+  "random_seed": 42,
+  "model": {
+    "vocab_size": 10000,
+    "context_length": 256,
+    "d_model": 448,
+    "num_layers": 4,
+    "num_heads": 14,
+    "d_ff": 1216,
+    "rope_theta": 10000.0,
+    "use_rms_norm": true,
+    "norm_mode": "pre",
+    "ffn_type": "swiglu"
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "max_learning_rate": 0.001,
+    "min_learning_rate": 0.0001,
+    "warmup_steps": 100,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "weight_decay": 0.01,
+    "max_grad_norm": 1.0
+  },
+  "training": {
+    "batch_size": 128,
+    "num_steps": 9766,
+    "tokens_per_step": 32768,
+    "target_training_tokens": 320012288,
+    "eval_interval": 100,
+    "eval_iters": 20,
+    "checkpoint_interval": 1000,
+    "precision": "float32 with TF32 matmul enabled"
+  },
+  "data": {
+    "train_ids": "/data/tokenized/tinystories_10k/train.bin",
+    "valid_ids": "/data/tokenized/tinystories_10k/valid.bin",
+    "dtype": "uint16"
+  },
+  "parameter_count": 18712512,
+  "gpu": "NVIDIA B200",
+  "train_dataset_tokens": 541229347,
+  "valid_dataset_tokens": 5465883
+}
